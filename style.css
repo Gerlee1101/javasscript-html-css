@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.container {
+  width: 100vw;
+  display: flex;
+  /* background-color: aquamarine; */
+  gap: 20px;
+  /* flex-wrap: wrap; */
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(255, 81, 0);
+  border: 2px green solid;
+  gap: 10px;
+}

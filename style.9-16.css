@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.container {
+  width: 100px;
+  height: 50px;
+  display: flex;
+  border: 1px rgb(241, 239, 239) solid;
+  background-color: rgb(241, 239, 239);
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.add {
+  flex: 25%;
+}
+.subtract {
+  flex: 25%;
+}
+.number {
+  flex: 50%;
+}
